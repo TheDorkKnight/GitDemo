@@ -39,6 +39,10 @@ public class GitDemo implements EntryPoint {
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
+		
+		// Meaningless change for test purposes
+		// BLAH
+		
 		final Button sendButton = new Button("Send");
 		final TextBox nameField = new TextBox();
 		nameField.setText("GWT User");
